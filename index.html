@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavel Krankuš</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+      }
+
+      li {
+        float: left;
+      }
+
+      #right {
+        float: right;
+      }
+
+
+      li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 19px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #ddd;
+      }
+
+      li a.active {
+        color: white;
+        background-color: #f70c2c;
+      }
+    </style>
+  </head>
+
+  <body style="font-family: verdana; font-size: 100%" 
+    display: block;
+    margin: 320px;
+    margin-top: 32px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;>
+    <ul>
+      <li><a class="active" href="index.html">Domov</a></li>
+      <li><a href="add-review.html">Pridať recenziu</a></li>
+      <li><a href="chart.html">Rebríček top filmov</a></li>
+      <li id=right><audio src="bensound-happyrock.mp3" autoplay controls></audio></li>
+    </ul>
+
+    <h1>Filmy, čo mám rád</h1>
+
+    <details>
+      <summary>Matrix</summary><p>nadčasový film</p>
+    </details>
+    
+
+    <details>
+    <summary>Fight Club</summary>
+      <p>perfektný vizuál</p>
+    </details>
+    <details> <summary>Goodfellas </summary><p> 
+      <a href="http://127.0.0.1:5500/pages/movie1.html"
+        >podľa skutočného príbehu</a
+      >
+    </p></details>
+    
+    
+
+    <p></p>
+  </body>
+</html>
